@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .9;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2.1s ease-in;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1.07);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: .8;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 2.1s ease-in;
+}

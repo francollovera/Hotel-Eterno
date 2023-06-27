@@ -1,0 +1,111 @@
+.container {
+    max-width: 100vw; /* Ajusta el ancho máximo del contenedor del Accordion */
+    position: relative;
+    left: 700px;
+    top: 110px;
+    z-index: 1;
+    flex-wrap: wrap;
+    margin: 0;
+    margin: 0;
+  padding: 0;
+  border: none;
+
+    
+   
+   
+   
+    
+  }
+  
+  .question {
+    font-size: 16px; /* Ajusta el tamaño de fuente de las preguntas */
+    width: 200px;
+  }
+  .question:hover{
+    color:grey;
+  }
+  
+  .answer {
+    font-size: 14px; /* Ajusta el tamaño de fuente de las respuestas */
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .title{
+    font-size: 24px;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .container {
+      max-width: 100vw; /* Ajusta el ancho máximo del contenedor del Accordion */
+    
+      left: 0;
+      top: 1000px;
+      
+      z-index: 1;
+      flex-wrap: wrap;
+      
+      display: flex;
+      
+      justify-content: center;
+      
+    }
+    .title{
+   color: transparent;
+      
+    }
+  .acordeon{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    width: 100vw;
+      
+      justify-content: center;
+  }
+   
+    
+  }
+  
+  
+  @media (max-width:992px) {
+    .container {
+      max-width: 100vw; /* Ajusta el ancho máximo del contenedor del Accordion */
+    
+      left: 0;
+      top: 1000px;
+      
+      z-index: 1;
+      flex-wrap: wrap;
+      
+      display: flex;
+      
+      justify-content: center;
+      
+    }
+    .title{
+   color: transparent;
+      
+    }
+  .acordeon{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    width: 100vw;
+      
+      justify-content: center;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  @media (max-width: 576px) {
+    
+  
+  }
+  @media (max-width: 490px) {
+    
+  
+  }
+  
+  

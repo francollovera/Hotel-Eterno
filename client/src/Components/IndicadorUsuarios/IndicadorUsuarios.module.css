@@ -1,0 +1,105 @@
+.body{
+  background-color: rgb(220, 193, 193);
+}
+.container {   
+  transition: transform 0.3s, box-shadow 0.3s;
+  column-count: 2; 
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  }
+  .title {
+    padding-top: 20px;
+    margin-right: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #333333;   
+    position:relative;
+    animation: underline-slide 3s infinite linear;
+  }
+
+  
+  @keyframes underline-slide {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  /* Estilos para el subrayado */
+  .title::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(194, 187, 187), rgb(227, 227, 227), rgb(199, 199, 199), rgb(165, 165, 165), rgb(136, 136, 136), rgb(110, 110, 110), rgb(85, 85, 85), rgb(62, 62, 62), rgb(41, 41, 41), rgb(23, 23, 23), black);
+    background-size: 200% 100%;
+    animation: underline-gradient 3s infinite linear;
+  }
+  
+  @keyframes underline-gradient {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  .Image{
+    /* border-radius: 10%; */
+    padding: 10px 15px;
+    width: 600px;
+    height: 400px; 
+    align-items: center;
+    border-radius: 5%;
+  }
+  .parrafo1 {
+    padding-top: 60px;
+    /* display: flex;
+   position: relative; */
+   margin-right: 20px;
+   right: 17%;
+   text-align: justify;
+   font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  }
+  
+  .parrafo2 {
+    padding-top: 150px;
+    /* display: flex;
+   position: relative; */
+   margin-right: 40px;
+   margin-left: 40px;
+   right: 17%;
+   text-align: justify;
+   font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  }
+  
+  .centerleft {
+    padding-top: 30px;
+    display: flex;
+   position: relative;
+   right: 17%;
+   text-align: justify;
+   font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+    
+ 
+  }
+  

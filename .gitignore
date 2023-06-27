@@ -1,0 +1,24 @@
+# Dependencias
+/node_modules
+
+# Archivos de construcción
+/build
+/dist
+
+# Archivos de configuración local
+.env
+
+# Archivos de registro
+/log
+
+# Otros archivos generados
+.DS_Store
+
+# Archivos específicos de MongoDB
+/db
+
+# Archivos de respaldo
+/backup
+
+# Archivos de registro de error de producción
+/error.log

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.section {
+  background-color: #cecaca;
+  min-width: 100vw;
+ 
+  width: 100%;
+  z-index: 3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+ 
+}
+.btn {
+  background-color: transparent;
+}
+.btn btn
+  {
+    background-color: transparent;
+  }
+  .row{
+    background-color: transparent;
+  }
+
+
+
+
+.linksordenamiento{
+  font-size: 14px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+ 
+  text-align: center  ;
+ width: 100%;
+  background-color: #913b23;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-left: 30px;
+
+
+  
+}
+
+.linksordenamiento:hover{
+  cursor: pointer;
+}
+.searchInput {
+  font-size: 14px;
+  margin-left: 30px;
+  padding: 10px 20px;
+
+
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  
+  text-align: center  ;
+  width: 50%;
+  
+ 
+}
+.form-inline{
+  width: 50%;
+}
+.title {
+
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+ 
+  
+  background-color: #cecaca; 
+  padding: 10px; 
+  z-index: 1;
+
+  
+ 
+  padding: 10px 20px;
+
+  
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+ 
+  margin-left: 20px;
+  
+  
+}
+.link {
+    font-size: 15px;
+ 
+  padding: 10px 20px;
+ 
+  background-color: #913b23;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+ 
+  margin-left: 30px;
+  margin-top: 10px;
+ 
+  text-align: center;
+  width: 200px;
+}
+
+.link:hover {
+  background-color: #a82400;
+  color: black;
+ 
+  box-shadow: inset 0 -2px 0 rgb(65, 63, 63);
+  transition: box-shadow 0.5s;
+}
+.links{
+  margin-bottom: 30px;
+}
+.image {
+    
+  margin-top: 5px;
+  margin-right: 60px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .link {
+    font-size: 10px;
+    
+ 
+  padding: 10px 20px;
+  width: 150px;}
+  .searchInput{
+    width: 100%;
+    margin: 0;
+  }
+  .linksordenamiento{
+    margin: 0;
+  }
+  .image{
+    width: 95%;
+  }
+}
+@media (max-width: 576px) {
+  .links {
+   margin-left: 50px;
+  .title{
+    margin-left: 80px;
+  }
+    
+}
+}

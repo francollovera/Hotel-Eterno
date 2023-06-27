@@ -1,0 +1,110 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+   
+}
+.number{
+    font-size: 15px;
+    font-weight: 900;
+    width: 30px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right:7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #874d40;
+    border-radius: 6px;
+    color: wheat;
+}
+.number:hover{
+    
+    background-color: #78210e;
+    border-radius: 6px;
+}
+
+
+.link:hover{
+    cursor: pointer;
+    background-color: #78210e;
+    color: wheat;
+    border-radius: 6px;
+}
+.flecha{
+    width: 10px; 
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: white; 
+    
+}
+.flecha2{
+    width: 10px; 
+    height: 34px;
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    font-size: 18px;
+    
+}
+.link {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Agrega el color deseado para los números */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .paginado{
+        width: 80%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+    .number{
+font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .paginado{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .number{
+        font-size: 10px;
+            }
+  }
+  @media (max-width: 576px) {
+    .paginado{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        right: 0;
+        padding: 0;
+        margin-left: 20%;
+    }
+    .number{
+        font-size: 10px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+            }
+  }
